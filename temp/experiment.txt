@@ -1,0 +1,13 @@
+# experiment.txt
+# Temporary notes and scratch space for testing
+
+This file is used to try out ideas, debug small snippets,
+or store temporary test data.
+
+Nothing inside this file is meant to be permanent.
+
+Testing notes:
+- Experimenting with validation rules
+- Logging temporary outputs
+
+End of experiment.
