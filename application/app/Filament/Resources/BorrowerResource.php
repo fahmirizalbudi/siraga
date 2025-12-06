@@ -71,7 +71,17 @@ class BorrowerResource extends Resource
                     ->searchable(),
 
                 TextColumn::make('phone'),
-                TextColumn::make('gender'),
+
+                TextColumn::make('gender')
+                    ->badge()
+                    ->formatStateUsing(fn($state) => ucfirst($state))
+                    ->color(fn($state) => match (strtolower($state)) {
+                        'male' => 'info',
+                        'female' => 'danger',
+                        default => 'gray',
+                    }),
+
+
                 TextColumn::make('address')
             ])
             ->filters([])
