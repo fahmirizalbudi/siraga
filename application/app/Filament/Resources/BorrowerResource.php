@@ -48,6 +48,7 @@ class BorrowerResource extends Resource
 
                 Select::make('gender')
                     ->required()
+                    ->searchable()
                     ->options([
                         'male' => 'Male',
                         'female' => 'Female',
