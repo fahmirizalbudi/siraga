@@ -14,36 +14,36 @@
 
 <br />
 
-## 🏀 SiRAGA
+## SiRAGA
 
 SiRAGA <i>(Sistem Informasi Peminjaman Alat Olahraga)</i> is a web-based application for managing sports equipment loans. Built with Laravel Filament, and database using MySQL. Key features include:
 
-## 🖼️ Preview
+## Preview
 
 ![](siraga.png)
 
-## ✨ Features
+## Features
 
-- **📊 Admin Dashboard:** Comprehensive dashboard provided by Filament to monitor overall activity.
-- **🏸 Equipment Management:** CRUD (Create, Read, Update, Delete) operations for sports equipment data (stock, condition, categories).
-- **📝 Loan Transaction:** Manage borrowing and returning processes efficiently.
+- **Admin Dashboard:** Comprehensive dashboard provided by Filament to monitor overall activity.
+- **Equipment Management:** CRUD (Create, Read, Update, Delete) operations for sports equipment data (stock, condition, categories).
+- **Loan Transaction:** Manage borrowing and returning processes efficiently.
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
 - **Laravel**: A PHP web application framework with expressive, elegant syntax.
 - **Filament**: A collection of beautiful full-stack components for Laravel, used here for the Admin Panel.
 - **MySQL**: An open-source relational database management system.
 
-## 📦 Getting Started
+## Getting Started
 
 To get a local copy of this project up and running, follow these steps.
 
-### 🚀 Prerequisites
+### Prerequisites
 
 - **PHP** (v8.2 or higher) & **Composer**.
 - **MySQL** (or another supported SQL database).
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -72,14 +72,14 @@ To get a local copy of this project up and running, follow these steps.
    php artisan serve
    ```
 
-## 📖 Usage
+## Usage
 
-### ✔ Running the Website
+### Running the Website
 
 - **Website development:** `php artisan serve`.
 
 > Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
-## 📜 License
+## License
 
 All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
